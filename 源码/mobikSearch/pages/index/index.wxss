@@ -1,0 +1,28 @@
+#map{
+  width: 100%;
+  height: 65vh;
+}
+
+.btn{
+  width: 500rpx;
+  background-color: greenyellow;
+  margin-top: 20rpx;
+}
+
+.zoomOut{
+  margin-right: 126rpx;
+  width: 200rpx;
+  border-radius: 20%;
+}
+
+.zoomIn{
+  margin-left: 126rpx;
+  width: 200rpx;
+  border-radius: 20%;
+}
+
+
+.btnBox{
+  display: flex;
+  flex-direction: row;
+}

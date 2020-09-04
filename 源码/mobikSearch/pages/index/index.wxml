@@ -1,0 +1,10 @@
+<cu-custom bgColor="bg-gradual-pink" isBack="{{false}}">
+  <view slot="content">MobikeSearch</view>
+</cu-custom>
+<map id="map" longitude="{{longitude}}" scale="{{scale}}" latitude="{{latitude}}" markers="{{markers}}" polyline="{{polyline}}"></map>
+<button class='btn' bindtap='searchBike'>查询附近共享单车</button>
+<button class='btn' disabled='{{flag}}' bindtap='searchNearBy'>查询离你最近共享单车</button>
+<view class='btnBox'>
+  <button class='btn zoomIn' bindtap='zoomIn' disabled='{{scale>=19}}'>放大</button>
+  <button class='btn zoomOut' bindtap='zoomOut' disabled='{{scale<=4}}' >缩小</button> 
+</view>

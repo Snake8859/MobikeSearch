@@ -1,0 +1,21 @@
+<cu-custom bgColor="bg-gradual-green" isBack="{{false}}">
+  <view slot="content">关于</view>
+</cu-custom>
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+  <view class='text-center margin-bottom text-lg  text-grey'>关于MobikeSearch</view>
+  <view class='text-content'>
+    <view>Hi！欢迎体验MobikeSearch</view>
+    <view class='margin-top-sm'>MobikeSearch主要是通过爬虫+LBS技术，实现共享单车位置显示和最近查询，仅供学习使用</view>
+    <view class='margin-top-sm'>因为时间和精力关系，小程序做很简单，最初目的也仅是学习爬虫和LBS技术，所以显得很简陋，若以后有更多时间，可以再次维护和更新</view>
+    <view class='margin-top-sm'>更多功能敬请期待！感谢ColorUI组件库支持</view>
+  </view>
+  <view class="margin flex">
+    <view class="bg-black flex-sub margin-right radius shadow-lg">
+      <image src="https://image.weilanwl.com/gif/loading-black.gif" mode="aspectFit" class="gif-black response" style="height:240rpx"></image>
+    </view>
+    <view class="bg-white flex-sub radius shadow-lg">
+      <image src="https://image.weilanwl.com/gif/loading-white.gif" mode="aspectFit" class="gif-white response" style="height:240rpx"></image>
+    </view>
+  </view>
+  <button bindtap="toIndexPage" class="cu-btn bg-cyan shadow mybtn" data-class="shake" role="button" aria-disabled="false">Welcome</button>
+</view>

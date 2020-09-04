@@ -1,0 +1,19 @@
+const app = getApp();
+Page({
+  data: {
+    StatusBar: app.globalData.StatusBar,
+    CustomBar: app.globalData.CustomBar,
+    ColorList: app.globalData.ColorList,
+  },
+  toIndexPage:function(res){
+    wx.redirectTo({
+      url: '/pages/index/index',
+    })
+  },
+  onLoad: function () { },
+  pageBack() {
+    wx.navigateBack({
+      delta: 1
+    });
+  }
+});
