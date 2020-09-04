@@ -1,4 +1,5 @@
 .gitigonre
 *.properties
+*.iml
 LBS-Test/target/
 LBS-Test/.idea/
